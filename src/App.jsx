@@ -10,7 +10,7 @@ import {
 //  After deploying backend to Render, replace the URL below.
 //  Leave as-is → app runs entirely on the built-in JS formula.
 // ═══════════════════════════════════════════════════════════════
-const API_URL = "https://your-backend.onrender.com"
+const API_URL = "https://nvaa-predictor.onrender.com"
 
 // ═══════════════════════════════════════════════════════════════
 //  CONSTANTS  (calibrated from 198 real sprint observations)
