@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-03T20:43:08.051078",
+  "track_b_features": [
+    "num_devs",
+    "complexity",
+    "ai_maturity",
+    "total_sprints",
+    "sprint_length_days",
+    "genai_enabled",
+    "genai_usage_intensity",
+    "sprint_seq_norm",
+    "log_num_devs",
+    "ai_lift_factor",
+    "quality_index",
+    "lag_productivity",
+    "lag_tech_debt",
+    "domain_enc",
+    "methodology_enc",
+    "sdlc_phase_num"
+  ],
+  "fap_feature_cols": [
+    "num_devs",
+    "complexity",
+    "ai_maturity",
+    "total_sprints",
+    "sprint_length_days",
+    "genai_enabled",
+    "genai_usage_intensity",
+    "sprint_seq_norm",
+    "log_num_devs",
+    "ai_lift_factor",
+    "quality_index",
+    "lag_productivity",
+    "lag_tech_debt",
+    "domain_enc",
+    "methodology_enc",
+    "sdlc_phase_num"
+  ],
+  "fap_optional_cols": [
+    "ai_maturity",
+    "genai_usage_intensity",
+    "quality_index",
+    "lag_productivity",
+    "lag_tech_debt"
+  ],
+  "pre_baselines": {
+    "dd_base": 0.1285,
+    "tdr_base": 20.95,
+    "prod_base": 0.635
+  },
+  "mean_apm": 1.0610436591833754,
+  "domain_apm": {
+    "FinTech": 1.0716,
+    "Healthcare": 1.0463,
+    "Manufacturing": 1.094,
+    "Telecom": 1.0086
+  },
+  "sp_calibration": {
+    "a": 1.0798165405673648,
+    "b": 1.0107171528795482
+  },
+  "track_b_best": {
+    "productivity": "RandomForest",
+    "tech_debt": "ElasticNet",
+    "defect_density": "ElasticNet"
+  },
+  "track_b_r2": {
+    "productivity": 0.7276169110376187,
+    "tech_debt": 0.6812472819329535,
+    "defect_density": -0.09562801897409412
+  },
+  "track_a_best": "SVR",
+  "nvaa_demo": {
+    "cumulative_nvaa": 14051.79735990367,
+    "roi_pct": 67.92546309042238
+  }
+}
